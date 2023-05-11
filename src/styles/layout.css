@@ -1,0 +1,108 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+.main {
+    display: flex;
+    flex-grow: 1;
+}
+  
+.content {
+flex-grow: 1;
+}
+    
+/* --------- Non-flexbox related styles --------- */
+.child {
+display: flex;
+align-items: center;
+justify-content: center;
+/* margin: 1%; */
+padding: 2px;
+font-size: 20px;
+line-height: 20px;
+color: #ffe8c3;
+background-color: #eab768;
+/* border-radius: 10px; */
+border: 10px solid #f5cc8b;
+}
+
+.topLayer {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin: 1%; */
+    padding: 10px;
+    font-size: 20px;
+    line-height: 20px;
+    color: grey;
+    background-color: white;  
+    /* border-radius: 10px; */
+    border-bottom: 1px solid #EBEDEF;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 42%, rgba(245,241,241,1) 100%, rgba(0,212,255,1) 100%); */
+    }
+    
+
+.sideMenuLayer {
+    display: flex;
+    width:200px; 
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin: 1%; */
+    padding: 18px;
+    font-size: 12px;
+    line-height: 20px;
+    color:  #566573 ;
+    background-color:#F4F6F6 ;
+    border-right: 1px solid #EBEDEF;
+    /* border-radius: 10px; */
+    /* border: 10px solid #f5cc8b; */
+    flex-direction: column;
+
+    }
+
+.bodyLayer {
+    display: flex;
+    /* 
+    align-items: center;
+    justify-content: center;
+    */ 
+    margin: 1%; 
+    padding: 20px;
+    font-size: 30px;
+    line-height: 20px;
+    color: grey;
+    background-color: white;
+    /* border-radius: 10px; */
+    /* border: 10px solid #f5cc8b; */
+    }
+        
+
+
+.footerLayer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 1%; */
+    padding: 2px;
+    font-size: 12px;
+    font-weight: "normal";
+    line-height: 20px;
+    color: grey;
+    background-color: white;
+    /* border: 3px dashed red; */
+    }
+            
+body {
+/* background-color: #282c35; */
+font-family: Verdana;
+font-size: 16px;
+font-weight: 600;
+}
+
+
+
+
+  

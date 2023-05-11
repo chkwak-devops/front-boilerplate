@@ -1,0 +1,29 @@
+.ui.vertical.menu {
+    width: auto;
+}
+
+.ui.vertical.menu>.item {
+    height: 34px;
+    min-height: 34px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.ui.vertical.menu .item>.menu {
+    margin: 0;
+    padding: 0;
+}
+
+.ui.vertical.menu>.item .header {
+    padding: 10px 5px;
+}
+
+.ui.vertical.menu .item>.header:not(.ui) {
+    margin: 0;
+}
+
+.ui.vertical.menu .item>.menu {}
+
+.ui.vertical.menu .item>.header.active+.menu {}
