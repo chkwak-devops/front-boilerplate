@@ -7,7 +7,7 @@ import {
 const ImagePage = () => {
 
 
-    const DEFAULT_IMG_URL = "/images/emart_logi";
+    const DEFAULT_IMG_URL = "/images/emart_logo.png";
 
     const imageArray = [
         "/images/photo-1446308386271-523272773b92.jpeg",
@@ -50,9 +50,13 @@ const ImagePage = () => {
                     <span>{time.toLocaleTimeString()}</span>
                 </div>
 
-                <div style={{ span: 20 }}>
+                <div style={{
+                    padding: 40, margin: 40, borderWidth: 3,
+                    borderStyle: "dashed",
+                    color: "darkgray"
+                }}>
 
-                    <Image src={imgUrl} size='large' />
+                    <Image src={imgUrl} size='huge' />
                 </div>
 
             </div>
